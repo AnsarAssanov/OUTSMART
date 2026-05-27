@@ -4,7 +4,7 @@ import { ArrowRight, FileText } from "lucide-react";
 
 const FORM_LINK = "https://forms.gle/qGHEJES2sDgBM92g7";
 
-export function CallToAction() {
+export default function CallToAction() {
   return (
     <section className="py-24 px-6 max-w-5xl mx-auto relative z-10">
       <motion.div 
