@@ -9,7 +9,7 @@ interface ButtonProps {
   icon?: ReactNode;
 }
 
-export function Button({ children, href, variant = "primary", className = "", icon }: ButtonProps) {
+export default function Button({ children, href, variant = "primary", className = "", icon }: ButtonProps) {
   const baseStyles = "inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium transition-all duration-300 transform active:scale-95 text-sm md:text-base cursor-pointer";
   
   const variants = {
