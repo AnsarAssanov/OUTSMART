@@ -1,0 +1,6 @@
+{
+  "name": "OUTSMART",
+  "description": "Premium interactive landing page for the OUTSMART SAT prep course.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
