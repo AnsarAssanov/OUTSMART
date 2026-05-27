@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Curriculum from "./components/Curriculum";
-import Showcase from "./components/Showcase";
-import CallToAction from "./components/CallToAction";
+import Navbar from "./components/Navbar.tsx";
+import Hero from "./components/Hero.tsx";
+import Features from "./components/Features.tsx";
+import Curriculum from "./components/Curriculum.tsx";
+import Showcase from "./components/Showcase.tsx";
+import CallToAction from "./components/CallToAction.tsx";
 
 export default function App() {
   return (
