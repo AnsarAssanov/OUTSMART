@@ -4,7 +4,7 @@ import { ArrowRight, Play, Upload } from "lucide-react";
 
 const FORM_LINK = "https://forms.gle/qGHEJES2sDgBM92g7";
 
-export function Hero() {
+export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-24 pb-12 px-6 overflow-hidden">
       {/* Background gradients */}
