@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { MonitorPlay, CheckCircle2, MessageSquareText, BookOpen, BrainCircuit, LineChart } from "lucide-react";
 
-export function Features() {
+export default function Features() {
   const features = [
     { title: "Personal learning platform", desc: "Удобная платформа со всеми видеоуроками и домашкой в одном месте.", icon: <MonitorPlay className="w-6 h-6" /> },
     { title: "Bluebook practice tests breakdowns", desc: "Детальный разбор всех официальных тестов Bluebook с анализом логики CollegeBoard.", icon: <CheckCircle2 className="w-6 h-6" /> },
