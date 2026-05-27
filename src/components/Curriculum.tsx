@@ -41,7 +41,7 @@ function AccordionItem({ title, desc }: { title: string, desc: string }) {
   );
 }
 
-export function Curriculum() {
+export default function Curriculum() {
   return (
     <section id="curriculum" className="py-24 px-6 max-w-5xl mx-auto relative z-10">
       <div className="text-center mb-16">
