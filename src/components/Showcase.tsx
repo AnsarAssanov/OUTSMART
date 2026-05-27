@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { PlayCircle, Target, Sparkles, UserCheck } from "lucide-react";
 
-export function Showcase() {
+export default function Showcase() {
   return (
     <section id="platform" className="py-24 px-6 max-w-7xl mx-auto relative z-10 space-y-32">
       
